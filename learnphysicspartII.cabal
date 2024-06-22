@@ -34,7 +34,8 @@ library
       src
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
   build-depends:
-      base >=4.7 && <5
+      Vis >=1.0.0
+    , base >=4.7 && <5
     , gnuplot >=0.5.7
     , vector-space >=0.16
   default-language: Haskell2010
@@ -49,7 +50,8 @@ executable learnphysicspartII-exe
       app
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
-      base >=4.7 && <5
+      Vis >=1.0.0
+    , base >=4.7 && <5
     , gnuplot >=0.5.7
     , learnphysicspartII
   default-language: Haskell2010
@@ -65,7 +67,8 @@ test-suite learnphysicspartII-test
       test
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
-      base >=4.7 && <5
+      Vis >=1.0.0
+    , base >=4.7 && <5
     , gnuplot >=0.5.7
     , learnphysicspartII
   default-language: Haskell2010

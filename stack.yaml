@@ -35,7 +35,8 @@ packages:
 # These entries can reference officially published versions as well as
 # forks / in-progress versions pinned to a git hash. For example:
 #
-# extra-deps:
+extra-deps:
+  - Vis-1.0.0@sha256:7d88c75db3844a293d04f5f2d0a71bb9cd5cbeca7449cb742fd511275dc87018,1657
 #   - not-gloss-0.7.7.0@sha256:068d46e5babc8f7006c76c29d704bf85495a38cc6135559b83d5fc682ca8e804,1843
 #   - spatial-math-0.5.0.1@sha256:0105f71280b751991f234ed41bb2ee12596d97b1f18e3ae8b9e3324475ca012f,1810
 #   - TypeCompose-0.9.14@sha256:d0d23df29bdc56096affee2bd057f852a4a96b0df08d1415de414b570f911fbe,1505
@@ -65,4 +66,4 @@ packages:
 #
 # Allow a newer minor version of GHC than the snapshot specifies
 # compiler-check: newer-minor
-allow-newer: true
+# allow-newer: true
