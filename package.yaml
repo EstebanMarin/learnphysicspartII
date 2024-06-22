@@ -21,7 +21,7 @@ description: Please see the README on GitHub at <https://github.com/githubuser/l
 
 dependencies:
   - base >= 4.7 && < 5
-  - gnuplot
+  - gnuplot >= 0.5.7
 
 ghc-options:
   - -Wall
@@ -37,7 +37,11 @@ ghc-options:
 library:
   source-dirs: src
   dependencies:
-    - gnuplot
+    - gnuplot >= 0.5.7
+    - vector-space >= 0.16
+    # - spatial-math (>=0.2.1.2)
+    # - not-gloss >= 0.7.7.0
+    # - spatial-math >=0.2.1.2
 
 executables:
   learnphysicspartII-exe:
