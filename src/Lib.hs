@@ -57,14 +57,6 @@ module Lib
   )
 where
 
-import GraphicsMine (testMod)
-
--- import GraphicsMine (testMod)
-
--- import Lib.GraphicsMine (testMod)
-
-test6 = testMod
-
 infixl 6 ^+^
 
 infixl 6 ^-^

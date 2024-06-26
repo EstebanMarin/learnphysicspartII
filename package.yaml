@@ -23,6 +23,7 @@ dependencies:
   - base >= 4.7 && < 5
   - gnuplot >= 0.5.7
   - Vis >= 1.0.0
+  - gloss >= 1.13.2.2
 
 ghc-options:
   - -Wall
